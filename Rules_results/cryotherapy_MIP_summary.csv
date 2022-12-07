@@ -1,0 +1,11 @@
+"data","iter","error_tolerance","coverage_tolerance","coverage_ratio","init_error","covered_error_ratio","overlapping_ratio","optimality","opt_run_time","run_time","init_Rules_nbr","Rules_nbr"
+"cryotherapy",1,0.01,0.025,0.9841,0.0476,0.0484,0.4194,"Optimal",0.743,5.3436,441,7
+"cryotherapy",2,0.01,0.025,0.9841,0.0317,0.0323,0.5,"Optimal",0.736,5.793,485,7
+"cryotherapy",3,0.01,0.025,0.9841,0.0476,0.0484,0.3548,"Optimal",0.754,4.969,408,6
+"cryotherapy",4,0.01,0.025,0.9841,0.0159,0.0161,0.2742,"Optimal",0.379,5.4447,494,9
+"cryotherapy",5,0.01,0.025,0.9841,0.0159,0.0161,0.4516,"Optimal",0.549,5.4003,414,8
+"cryotherapy",6,0.01,0.025,0.9841,0.0476,0.0484,0.1935,"Optimal",0.201,5.2805,480,7
+"cryotherapy",7,0.01,0.025,0.9841,0.0476,0.0484,0.3548,"Optimal",1.452,6.3852,465,8
+"cryotherapy",8,0.01,0.025,0.9841,0.0317,0.0323,0.3548,"Optimal",0.356,4.4688,397,7
+"cryotherapy",9,0.01,0.025,1,0.0317,0.0317,0.2698,"Optimal",0.478,4.8259,421,8
+"cryotherapy",10,0.01,0.025,0.9841,0.0635,0.0645,0.3548,"Optimal",0.987,5.7769,454,7

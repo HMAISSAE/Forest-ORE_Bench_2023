@@ -1,0 +1,11 @@
+"data","iter","RFTree","RFRules","PreSelectedRules","OPTRules","OPTRulesSTEL","IntreesRRFRules","IntreesSTELRules","CART","CBA","RIPPER","C4.5","RCAR","SBRL"
+"banana",1,100,1048,53,7,7,7,7,7,NA,NA,NA,NA,NA
+"banana",2,100,1026,59,7,7,4,4,8,NA,NA,NA,NA,NA
+"banana",3,100,1049,62,7,7,6,6,8,NA,NA,NA,NA,NA
+"banana",4,100,1044,64,7,7,7,5,8,NA,NA,NA,NA,NA
+"banana",5,100,1088,62,7,7,8,6,4,NA,NA,NA,NA,NA
+"banana",6,100,1070,56,7,7,6,6,8,NA,NA,NA,NA,NA
+"banana",7,100,1059,56,7,7,8,8,8,NA,NA,NA,NA,NA
+"banana",8,100,1035,59,7,7,9,6,4,NA,NA,NA,NA,NA
+"banana",9,100,1041,64,7,7,7,6,8,NA,NA,NA,NA,NA
+"banana",10,100,1086,63,7,6,6,4,4,NA,NA,NA,NA,NA

@@ -1,0 +1,11 @@
+"data","iter","RFTree","RFRules","PreSelectedRules","OPTRules","OPTRulesSTEL","IntreesRRFRules","IntreesSTELRules","CART","CBA","RIPPER","C4.5","RCAR","SBRL"
+"vote",1,100,1794,580,6,6,7,6,4,NA,NA,NA,NA,NA
+"vote",2,100,1806,563,5,5,6,4,2,NA,NA,NA,NA,NA
+"vote",3,100,1755,578,4,4,6,4,2,NA,NA,NA,NA,NA
+"vote",4,100,1759,530,5,5,6,2,2,NA,NA,NA,NA,NA
+"vote",5,100,1723,564,4,4,7,5,4,NA,NA,NA,NA,NA
+"vote",6,100,1782,568,4,4,5,4,2,NA,NA,NA,NA,NA
+"vote",7,100,1873,581,4,4,7,4,2,NA,NA,NA,NA,NA
+"vote",8,100,1873,573,4,4,7,6,4,NA,NA,NA,NA,NA
+"vote",9,100,1626,585,5,5,6,3,2,NA,NA,NA,NA,NA
+"vote",10,100,1623,519,5,5,11,6,4,NA,NA,NA,NA,NA

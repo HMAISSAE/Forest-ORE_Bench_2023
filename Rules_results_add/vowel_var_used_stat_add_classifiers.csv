@@ -1,0 +1,11 @@
+"data","iter","method","mean","min","lower_quartile","median","upper_quartile","max"
+"vowel",1,"RIPPER",2.83,1,2,3,3.25,6
+"vowel",3,"RIPPER",3.15,1,2,3,4,6
+"vowel",7,"RIPPER",3.08,1,3,3,4,5
+"vowel",8,"RIPPER",3.23,1,3,3,4,5
+"vowel",9,"RIPPER",3.36,1,2,3,4,6
+"vowel",2,"RIPPER",3.21,1,2,3,4,7
+"vowel",4,"RIPPER",3.23,1,2,3,4,6
+"vowel",5,"RIPPER",3.03,1,2,3,4,6
+"vowel",6,"RIPPER",3.02,1,2,3,4,6
+"vowel",10,"RIPPER",3.12,1,2,3,4,6

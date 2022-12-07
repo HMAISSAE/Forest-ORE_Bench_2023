@@ -1,0 +1,11 @@
+"data","iter","RFTree","RFRules","PreSelectedRules","OPTRules","OPTRulesSTEL","IntreesRRFRules","IntreesSTELRules","CART","CBA","RIPPER","C4.5","RCAR","SBRL"
+"pageblocks",1,100,7374,480,8,6,10,5,11,NA,NA,NA,NA,NA
+"pageblocks",2,100,6913,484,8,7,6,4,8,NA,NA,NA,NA,NA
+"pageblocks",3,100,7113,510,8,7,9,5,11,NA,NA,NA,NA,NA
+"pageblocks",4,100,7042,467,6,6,6,5,11,NA,NA,NA,NA,NA
+"pageblocks",5,100,6663,475,9,7,13,5,18,NA,NA,NA,NA,NA
+"pageblocks",6,100,7043,451,10,9,6,4,16,NA,NA,NA,NA,NA
+"pageblocks",7,100,6726,459,9,9,12,6,10,NA,NA,NA,NA,NA
+"pageblocks",8,100,6743,488,12,8,10,4,13,NA,NA,NA,NA,NA
+"pageblocks",9,100,7200,461,10,8,8,4,11,NA,NA,NA,NA,NA
+"pageblocks",10,100,6809,473,9,8,9,6,13,NA,NA,NA,NA,NA

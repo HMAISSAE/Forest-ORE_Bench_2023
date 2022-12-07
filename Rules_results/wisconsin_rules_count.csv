@@ -1,0 +1,11 @@
+"data","iter","RFTree","RFRules","PreSelectedRules","OPTRules","OPTRulesSTEL","IntreesRRFRules","IntreesSTELRules","CART","CBA","RIPPER","C4.5","RCAR","SBRL"
+"wisconsin",1,100,1356,464,5,5,6,4,3,NA,NA,NA,NA,NA
+"wisconsin",2,100,1336,495,5,5,7,5,4,NA,NA,NA,NA,NA
+"wisconsin",3,100,1377,451,6,6,12,5,4,NA,NA,NA,NA,NA
+"wisconsin",4,100,1287,444,5,5,11,5,6,NA,NA,NA,NA,NA
+"wisconsin",5,100,1282,410,6,6,11,6,4,NA,NA,NA,NA,NA
+"wisconsin",6,100,1415,487,6,5,11,6,4,NA,NA,NA,NA,NA
+"wisconsin",7,100,1391,475,5,5,16,7,4,NA,NA,NA,NA,NA
+"wisconsin",8,100,1218,424,6,6,5,4,3,NA,NA,NA,NA,NA
+"wisconsin",9,100,1244,423,6,6,7,3,6,NA,NA,NA,NA,NA
+"wisconsin",10,100,1300,479,5,5,7,3,4,NA,NA,NA,NA,NA

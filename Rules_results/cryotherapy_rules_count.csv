@@ -1,0 +1,11 @@
+"data","iter","RFTree","RFRules","PreSelectedRules","OPTRules","OPTRulesSTEL","IntreesRRFRules","IntreesSTELRules","CART","CBA","RIPPER","C4.5","RCAR","SBRL"
+"cryotherapy",1,100,1234,441,7,6,36,10,4,NA,NA,NA,NA,NA
+"cryotherapy",2,100,1204,485,7,7,10,6,4,NA,NA,NA,NA,NA
+"cryotherapy",3,100,1129,408,6,6,24,11,3,NA,NA,NA,NA,NA
+"cryotherapy",4,100,1390,494,9,9,21,7,4,NA,NA,NA,NA,NA
+"cryotherapy",5,100,1147,414,8,7,29,11,3,NA,NA,NA,NA,NA
+"cryotherapy",6,100,1275,480,7,7,37,13,4,NA,NA,NA,NA,NA
+"cryotherapy",7,100,1302,465,8,8,36,13,4,NA,NA,NA,NA,NA
+"cryotherapy",8,100,1101,397,7,6,9,6,4,NA,NA,NA,NA,NA
+"cryotherapy",9,100,1223,421,8,7,28,12,4,NA,NA,NA,NA,NA
+"cryotherapy",10,100,1275,454,7,7,27,10,3,NA,NA,NA,NA,NA

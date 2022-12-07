@@ -1,0 +1,11 @@
+"data","iter","RFTree","RFRules","PreSelectedRules","OPTRules","OPTRulesSTEL","IntreesRRFRules","IntreesSTELRules","CART","CBA","RIPPER","C4.5","RCAR","SBRL"
+"phoneme",1,100,5968,467,18,18,6,5,10,NA,NA,NA,NA,NA
+"phoneme",2,100,6090,486,17,16,6,0,9,NA,NA,NA,NA,NA
+"phoneme",3,100,5847,531,19,15,7,2,6,NA,NA,NA,NA,NA
+"phoneme",4,100,6027,496,19,17,6,5,9,NA,NA,NA,NA,NA
+"phoneme",5,100,5980,484,16,16,6,5,10,NA,NA,NA,NA,NA
+"phoneme",6,100,5890,431,17,14,5,4,13,NA,NA,NA,NA,NA
+"phoneme",7,100,5995,489,18,17,6,6,7,NA,NA,NA,NA,NA
+"phoneme",8,100,5938,460,18,17,7,6,7,NA,NA,NA,NA,NA
+"phoneme",9,100,5919,472,15,15,5,4,10,NA,NA,NA,NA,NA
+"phoneme",10,100,6039,441,17,17,7,5,8,NA,NA,NA,NA,NA

@@ -1,0 +1,11 @@
+"data","iter","RFTree","RFRules","PreSelectedRules","OPTRules","OPTRulesSTEL","IntreesRRFRules","IntreesSTELRules","CART","CBA","RIPPER","C4.5","RCAR","SBRL"
+"banknote",1,100,2037,190,7,7,5,3,7,NA,NA,NA,NA,NA
+"banknote",2,100,1995,199,8,8,4,3,7,NA,NA,NA,NA,NA
+"banknote",3,100,1805,178,8,8,4,3,7,NA,NA,NA,NA,NA
+"banknote",4,100,1917,190,8,8,5,3,7,NA,NA,NA,NA,NA
+"banknote",5,100,1911,190,8,8,5,3,7,NA,NA,NA,NA,NA
+"banknote",6,100,1935,194,8,8,4,3,7,NA,NA,NA,NA,NA
+"banknote",7,100,1996,178,8,8,4,3,7,NA,NA,NA,NA,NA
+"banknote",8,100,1985,180,8,8,5,3,7,NA,NA,NA,NA,NA
+"banknote",9,100,2018,186,7,7,4,3,7,NA,NA,NA,NA,NA
+"banknote",10,100,1960,177,9,9,4,3,7,NA,NA,NA,NA,NA

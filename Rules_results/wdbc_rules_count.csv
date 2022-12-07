@@ -1,0 +1,11 @@
+"data","iter","RFTree","RFRules","PreSelectedRules","OPTRules","OPTRulesSTEL","IntreesRRFRules","IntreesSTELRules","CART","CBA","RIPPER","C4.5","RCAR","SBRL"
+"wdbc",1,100,1518,470,7,7,10,7,6,NA,NA,NA,NA,NA
+"wdbc",2,100,1518,492,6,6,11,6,6,NA,NA,NA,NA,NA
+"wdbc",3,100,1395,438,6,6,9,6,5,NA,NA,NA,NA,NA
+"wdbc",4,100,1523,531,5,5,7,5,6,NA,NA,NA,NA,NA
+"wdbc",5,100,1549,531,6,6,9,6,4,NA,NA,NA,NA,NA
+"wdbc",6,100,1389,438,6,6,14,9,6,NA,NA,NA,NA,NA
+"wdbc",7,100,1450,481,5,5,6,4,6,NA,NA,NA,NA,NA
+"wdbc",8,100,1445,472,5,5,9,5,5,NA,NA,NA,NA,NA
+"wdbc",9,100,1604,471,7,7,10,7,6,NA,NA,NA,NA,NA
+"wdbc",10,100,1389,443,5,5,12,5,6,NA,NA,NA,NA,NA

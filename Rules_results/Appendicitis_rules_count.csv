@@ -1,0 +1,11 @@
+"data","iter","RFTree","RFRules","PreSelectedRules","OPTRules","OPTRulesSTEL","IntreesRRFRules","IntreesSTELRules","CART","CBA","RIPPER","C4.5","RCAR","SBRL"
+"Appendicitis",1,100,1121,318,7,6,9,6,2,NA,NA,NA,NA,NA
+"Appendicitis",2,100,981,340,5,5,16,9,2,NA,NA,NA,NA,NA
+"Appendicitis",3,100,1045,312,5,4,14,8,2,NA,NA,NA,NA,NA
+"Appendicitis",4,100,1190,377,7,7,23,10,2,NA,NA,NA,NA,NA
+"Appendicitis",5,100,1039,326,6,5,12,5,4,NA,NA,NA,NA,NA
+"Appendicitis",6,100,1094,336,7,7,20,9,2,NA,NA,NA,NA,NA
+"Appendicitis",7,100,1178,330,7,6,18,11,2,NA,NA,NA,NA,NA
+"Appendicitis",8,100,1117,360,6,6,26,11,2,NA,NA,NA,NA,NA
+"Appendicitis",9,100,1006,325,5,4,13,6,2,NA,NA,NA,NA,NA
+"Appendicitis",10,100,1110,333,6,6,25,13,2,NA,NA,NA,NA,NA

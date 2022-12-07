@@ -1,0 +1,11 @@
+"data","iter","RFTree","RFRules","PreSelectedRules","OPTRules","OPTRulesSTEL","IntreesRRFRules","IntreesSTELRules","CART","CBA","RIPPER","C4.5","RCAR","SBRL"
+"wireless",1,100,3846,1248,12,12,6,5,5,NA,NA,NA,NA,NA
+"wireless",2,100,3833,1216,13,13,7,4,5,NA,NA,NA,NA,NA
+"wireless",3,100,3945,1294,13,13,7,5,5,NA,NA,NA,NA,NA
+"wireless",4,100,3990,1316,11,11,7,5,5,NA,NA,NA,NA,NA
+"wireless",5,100,4098,1321,11,11,6,3,5,NA,NA,NA,NA,NA
+"wireless",6,100,3950,1282,13,13,7,5,5,NA,NA,NA,NA,NA
+"wireless",7,100,4036,1318,14,14,6,4,5,NA,NA,NA,NA,NA
+"wireless",8,100,3882,1237,12,12,6,4,5,NA,NA,NA,NA,NA
+"wireless",9,100,3970,1314,12,12,6,4,5,NA,NA,NA,NA,NA
+"wireless",10,100,4016,1258,14,13,7,3,6,NA,NA,NA,NA,NA

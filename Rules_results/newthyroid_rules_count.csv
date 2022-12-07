@@ -1,0 +1,11 @@
+"data","iter","RFTree","RFRules","PreSelectedRules","OPTRules","OPTRulesSTEL","IntreesRRFRules","IntreesSTELRules","CART","CBA","RIPPER","C4.5","RCAR","SBRL"
+"newthyroid",1,100,1328,324,5,5,11,6,4,NA,NA,NA,NA,NA
+"newthyroid",2,100,1320,276,6,6,13,8,4,NA,NA,NA,NA,NA
+"newthyroid",3,100,1505,327,6,5,15,6,4,NA,NA,NA,NA,NA
+"newthyroid",4,100,1206,297,5,5,14,5,6,NA,NA,NA,NA,NA
+"newthyroid",5,100,1169,269,5,5,11,7,4,NA,NA,NA,NA,NA
+"newthyroid",6,100,1437,333,6,6,18,8,4,NA,NA,NA,NA,NA
+"newthyroid",7,100,1318,306,5,5,11,4,6,NA,NA,NA,NA,NA
+"newthyroid",8,100,1277,288,6,6,14,6,6,NA,NA,NA,NA,NA
+"newthyroid",9,100,1361,297,6,6,16,3,5,NA,NA,NA,NA,NA
+"newthyroid",10,100,1280,280,6,5,15,9,5,NA,NA,NA,NA,NA

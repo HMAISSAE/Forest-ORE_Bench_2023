@@ -1,0 +1,11 @@
+"data","iter","RFTree","RFRules","PreSelectedRules","OPTRules","OPTRulesSTEL","IntreesRRFRules","IntreesSTELRules","CART","CBA","RIPPER","C4.5","RCAR","SBRL"
+"haberman",1,100,1345,267,4,4,22,10,3,NA,NA,NA,NA,NA
+"haberman",2,100,1226,250,4,4,17,7,3,NA,NA,NA,NA,NA
+"haberman",3,100,1309,268,3,3,13,9,5,NA,NA,NA,NA,NA
+"haberman",4,100,1371,280,5,5,20,11,4,NA,NA,NA,NA,NA
+"haberman",5,100,1249,260,4,3,10,5,3,NA,NA,NA,NA,NA
+"haberman",6,100,1316,270,4,3,20,12,3,NA,NA,NA,NA,NA
+"haberman",7,100,1357,259,5,5,16,7,3,NA,NA,NA,NA,NA
+"haberman",8,100,1317,269,4,3,20,9,3,NA,NA,NA,NA,NA
+"haberman",9,100,1347,290,5,4,22,11,2,NA,NA,NA,NA,NA
+"haberman",10,100,1201,278,4,4,22,10,3,NA,NA,NA,NA,NA

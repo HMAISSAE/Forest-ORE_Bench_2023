@@ -1,0 +1,11 @@
+"data","iter","RFTree","RFRules","PreSelectedRules","OPTRules","OPTRulesSTEL","IntreesRRFRules","IntreesSTELRules","CART","CBA","RIPPER","C4.5","RCAR","SBRL"
+"wilt",1,100,4079,340,8,7,6,3,5,NA,NA,NA,NA,NA
+"wilt",2,100,4372,339,6,5,9,4,8,NA,NA,NA,NA,NA
+"wilt",3,100,4480,347,7,6,6,1,8,NA,NA,NA,NA,NA
+"wilt",4,100,4351,347,8,6,4,2,9,NA,NA,NA,NA,NA
+"wilt",5,100,4199,319,6,5,9,4,9,NA,NA,NA,NA,NA
+"wilt",6,100,4211,345,7,6,7,4,4,NA,NA,NA,NA,NA
+"wilt",7,100,4242,350,8,6,5,2,8,NA,NA,NA,NA,NA
+"wilt",8,100,4147,328,8,7,5,1,8,NA,NA,NA,NA,NA
+"wilt",9,100,4288,320,9,8,5,4,5,NA,NA,NA,NA,NA
+"wilt",10,100,4255,351,7,5,6,3,8,NA,NA,NA,NA,NA

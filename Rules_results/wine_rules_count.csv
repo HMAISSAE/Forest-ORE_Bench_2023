@@ -1,0 +1,11 @@
+"data","iter","RFTree","RFRules","PreSelectedRules","OPTRules","OPTRulesSTEL","IntreesRRFRules","IntreesSTELRules","CART","CBA","RIPPER","C4.5","RCAR","SBRL"
+"wine",1,100,1103,436,5,5,11,6,4,NA,NA,NA,NA,NA
+"wine",2,100,1234,480,4,4,5,4,4,NA,NA,NA,NA,NA
+"wine",3,100,1270,497,5,4,8,5,4,NA,NA,NA,NA,NA
+"wine",4,100,1310,544,5,5,15,5,5,NA,NA,NA,NA,NA
+"wine",5,100,1295,574,5,4,9,5,3,NA,NA,NA,NA,NA
+"wine",6,100,1216,522,5,4,11,4,4,NA,NA,NA,NA,NA
+"wine",7,100,1215,471,5,5,10,4,4,NA,NA,NA,NA,NA
+"wine",8,100,1223,494,4,4,6,3,4,NA,NA,NA,NA,NA
+"wine",9,100,1299,579,5,4,5,5,4,NA,NA,NA,NA,NA
+"wine",10,100,1272,534,5,5,7,4,5,NA,NA,NA,NA,NA

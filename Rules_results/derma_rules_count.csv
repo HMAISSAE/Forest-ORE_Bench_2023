@@ -1,0 +1,11 @@
+"data","iter","RFTree","RFRules","PreSelectedRules","OPTRules","OPTRulesSTEL","IntreesRRFRules","IntreesSTELRules","CART","CBA","RIPPER","C4.5","RCAR","SBRL"
+"derma",1,100,2399,432,9,8,13,6,7,NA,NA,NA,NA,NA
+"derma",2,100,2503,517,10,8,12,8,6,NA,NA,NA,NA,NA
+"derma",3,100,2533,508,11,10,16,8,6,NA,NA,NA,NA,NA
+"derma",4,100,2517,483,11,10,18,9,6,NA,NA,NA,NA,NA
+"derma",5,100,2539,507,10,10,13,8,6,NA,NA,NA,NA,NA
+"derma",6,100,2639,569,9,8,14,6,6,NA,NA,NA,NA,NA
+"derma",7,100,2527,496,10,8,14,7,6,NA,NA,NA,NA,NA
+"derma",8,100,2435,458,9,9,7,5,7,NA,NA,NA,NA,NA
+"derma",9,100,2599,516,11,9,12,7,7,NA,NA,NA,NA,NA
+"derma",10,100,2237,424,9,8,17,8,6,NA,NA,NA,NA,NA

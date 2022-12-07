@@ -1,0 +1,11 @@
+"data","iter","RFTree","RFRules","PreSelectedRules","OPTRules","OPTRulesSTEL","IntreesRRFRules","IntreesSTELRules","CART","CBA","RIPPER","C4.5","RCAR","SBRL"
+"Iris",1,100,713,122,5,4,8,4,3,NA,NA,NA,NA,NA
+"Iris",2,100,572,106,3,2,4,2,3,NA,NA,NA,NA,NA
+"Iris",3,100,750,136,4,3,8,5,4,NA,NA,NA,NA,NA
+"Iris",4,100,778,140,5,5,8,5,3,NA,NA,NA,NA,NA
+"Iris",5,100,703,129,3,3,6,4,4,NA,NA,NA,NA,NA
+"Iris",6,100,753,143,3,3,9,5,3,NA,NA,NA,NA,NA
+"Iris",7,100,671,116,3,3,6,4,3,NA,NA,NA,NA,NA
+"Iris",8,100,786,135,4,4,7,3,3,NA,NA,NA,NA,NA
+"Iris",9,100,806,151,5,4,8,5,4,NA,NA,NA,NA,NA
+"Iris",10,100,707,116,3,3,7,3,3,NA,NA,NA,NA,NA

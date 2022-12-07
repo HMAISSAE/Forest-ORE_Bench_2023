@@ -1,0 +1,11 @@
+"data","iter","RFTree","RFRules","PreSelectedRules","OPTRules","OPTRulesSTEL","IntreesRRFRules","IntreesSTELRules","CART","CBA","RIPPER","C4.5","RCAR","SBRL"
+"mammographic",1,100,3420,559,10,10,10,9,5,NA,NA,NA,NA,NA
+"mammographic",2,100,3388,590,10,9,9,7,4,NA,NA,NA,NA,NA
+"mammographic",3,100,3411,582,10,10,10,7,4,NA,NA,NA,NA,NA
+"mammographic",4,100,3547,495,11,11,8,7,4,NA,NA,NA,NA,NA
+"mammographic",5,100,3427,530,10,9,5,3,3,NA,NA,NA,NA,NA
+"mammographic",6,100,3201,529,7,6,8,5,3,NA,NA,NA,NA,NA
+"mammographic",7,100,3605,589,11,11,9,6,5,NA,NA,NA,NA,NA
+"mammographic",8,100,3562,547,10,9,8,5,4,NA,NA,NA,NA,NA
+"mammographic",9,100,3480,509,11,11,7,4,5,NA,NA,NA,NA,NA
+"mammographic",10,100,3469,518,10,9,7,3,5,NA,NA,NA,NA,NA

@@ -1,0 +1,7 @@
+"Classification issue","coverage","method","tested_data","statistic","parameter","pvalue"
+"Binary classification","all","Friedman rank sum test","mean_acc and method and data","35.6819682959049","9","4.51425201249315e-05"
+"Binary classification","covered","Friedman rank sum test","mean_acc and method and data","45.1034143138542","9","8.8290060966191e-07"
+"Binary classification","covered","Friedman rank sum test","mean_coverage and method and data","150.501474926254","9","6.94321897505835e-28"
+"Multiclass classification","all","Friedman rank sum test","mean_acc and method and data","72.9872173058014","8","1.24649310443558e-12"
+"Multiclass classification","covered","Friedman rank sum test","mean_acc and method and data","62.6534653465347","8","1.40209570026463e-10"
+"Multiclass classification","covered","Friedman rank sum test","mean_coverage and method and data","112.144288577154","8","1.37944042162116e-20"

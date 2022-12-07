@@ -1,0 +1,11 @@
+"data","iter","RFTree","RFRules","PreSelectedRules","OPTRules","OPTRulesSTEL","IntreesRRFRules","IntreesSTELRules","CART","CBA","RIPPER","C4.5","RCAR","SBRL"
+"hypothyroid",1,100,4547,359,7,6,8,2,6,NA,NA,NA,NA,NA
+"hypothyroid",2,100,4399,353,8,7,5,2,5,NA,NA,NA,NA,NA
+"hypothyroid",3,100,4479,332,7,6,9,3,7,NA,NA,NA,NA,NA
+"hypothyroid",4,100,4274,370,5,2,8,3,6,NA,NA,NA,NA,NA
+"hypothyroid",5,100,4105,357,6,5,10,3,7,NA,NA,NA,NA,NA
+"hypothyroid",6,100,4124,366,6,5,9,3,5,NA,NA,NA,NA,NA
+"hypothyroid",7,100,3608,347,5,3,10,2,5,NA,NA,NA,NA,NA
+"hypothyroid",8,100,4496,335,7,6,12,4,6,NA,NA,NA,NA,NA
+"hypothyroid",9,100,4121,339,6,4,9,3,6,NA,NA,NA,NA,NA
+"hypothyroid",10,100,4530,373,8,8,12,5,7,NA,NA,NA,NA,NA

@@ -1,0 +1,11 @@
+"data","iter","error_tolerance","coverage_tolerance","coverage_ratio","init_error","covered_error_ratio","overlapping_ratio","optimality","opt_run_time","run_time","init_Rules_nbr","Rules_nbr"
+"mammographic",1,0.01,0.025,0.9762,0.1441,0.1476,0.0015,"Optimal",0.356,63.4861,559,10
+"mammographic",2,0.01,0.025,0.9762,0.1441,0.1522,0.344,"Optimal",0.921,66.9404,590,10
+"mammographic",3,0.01,0.025,0.9777,0.1367,0.1413,0.1429,"Optimal",2.171,66.4977,582,10
+"mammographic",4,0.01,0.025,0.9762,0.1575,0.1659,0.2968,"Optimal",0.359,55.9338,495,11
+"mammographic",5,0.01,0.025,0.9792,0.1412,0.1487,0.2974,"Optimal",0.875,60.0466,530,10
+"mammographic",6,0.01,0.025,0.9777,0.1412,0.1459,0.2553,"Optimal",0.571,59.4688,529,7
+"mammographic",7,0.01,0.025,0.9762,0.1486,0.1507,0.3196,"Optimal",1.129,66.5483,589,11
+"mammographic",8,0.01,0.025,0.9762,0.153,0.1583,0.2146,"Optimal",0.507,60.658,547,10
+"mammographic",9,0.01,0.025,0.9762,0.1397,0.1446,0.1096,"Optimal",0.983,57.565,509,11
+"mammographic",10,0.01,0.025,0.9762,0.1486,0.1583,0.1933,"Optimal",2.121,59.6824,518,10

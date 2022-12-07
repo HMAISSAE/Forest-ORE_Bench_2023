@@ -1,0 +1,11 @@
+"data","iter","error_tolerance","coverage_tolerance","coverage_ratio","init_error","covered_error_ratio","overlapping_ratio","optimality","opt_run_time","run_time","init_Rules_nbr","Rules_nbr"
+"XOR",1,0.01,0.025,1,0,0,0,"Optimal",0.05,4.2181,42,4
+"XOR",2,0.01,0.025,1,0.1565,0,0,"Optimal",0.047,4.2187,42,4
+"XOR",3,0.01,0.025,1,0.0374,0,0,"Optimal",0.063,4.2569,42,4
+"XOR",4,0.01,0.025,1,0.2109,0,0,"Optimal",0.061,4.3527,43,4
+"XOR",5,0.01,0.025,1,0,0,0,"Optimal",0.055,4.3624,43,4
+"XOR",6,0.01,0.025,1,0.2381,0,0,"Optimal",0.048,4.2617,42,4
+"XOR",7,0.01,0.025,1,0.1105,0,0,"Optimal",0.047,4.2078,42,4
+"XOR",8,0.01,0.025,1,0.0493,0,0,"Optimal",0.052,4.4431,44,4
+"XOR",9,0.01,0.025,1,0.0357,0,0,"Optimal",0.043,3.927,39,4
+"XOR",10,0.01,0.025,1,0,0,0,"Optimal",0.055,4.1233,41,4
