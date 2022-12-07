@@ -2156,94 +2156,49 @@ for (perf_indic in c("accuracy","accuracy_cov", "macroF1", "macroF1_cov", "kappa
 
 
 
-filePaths_exetime = grep(list.files(path="./Rules_results", pattern='_exe_time.csv',full.names = TRUE), pattern='_avg_',invert=TRUE, value=TRUE)
+filePaths_exetime_init = grep(list.files(path="./Rules_results", pattern='_exe_time.csv',full.names = TRUE), pattern='_avg_',invert=TRUE, value=TRUE)
 
-B_exetime_all_iter <- do.call(rbind, lapply(filePaths_exetime, read.csv))
+B_exetime_all_iter_init <- do.call(rbind, lapply(filePaths_exetime_init, read.csv))
 names(B_exetime_all_iter)
-# table(B_perf_all_iter$pred_set)
-# head(B_perf_all_iter)
-# names(B_perf_all_iter)
-B_exetime_all_iter$data =toupper(B_exetime_all_iter$data)
-B_exetime_all_iter$data[which(B_exetime_all_iter$data=="BCO")] ="BRCANCER"
-# B_exetime_all_iter=B_exetime_all_iter[,-7]
-colnames(B_exetime_all_iter) = c("Data","iter","extract_rules","preselect_rules",
-                                 "prepare_opt_input","run_opt","RF","RPART","STEL")         
+B_exetime_all_iter_init= B_exetime_all_iter_init[,1:10]
+# we have noticed that the run time provided as output  by gurobi concernes just the optimization running time. 
+# we have updated the code to extract the total time required for building the model and running the optimization.
+B_exetime_all_iter_init$build_opt = B_exetime_all_iter_init$buildandrun_opt - B_exetime_all_iter_init$run_opt
+B_exetime_all_iter_init$data =toupper(B_exetime_all_iter_init$data)
+B_exetime_all_iter_init$data[which(B_exetime_all_iter_init$data=="BCO")] ="BRCANCER"
+
+filePaths_exetime_add = grep(list.files(path="./Rules_results_add", pattern='_exe_time_add_classifiers.csv',full.names = TRUE), pattern='_avg_',invert=TRUE, value=TRUE)
+
+B_exetime_all_iter_add <- do.call(rbind, lapply(filePaths_exetime_add, read.csv))
+names(B_exetime_all_iter)
+
+B_exetime_all_iter_add$data =toupper(B_exetime_all_iter_add$data)
+B_exetime_all_iter_add$data[which(B_exetime_all_iter_add$data=="BCO")] ="BRCANCER"
+
+B_exetime_all_iter= sqldf('select B_exetime_all_iter_init.* , B_exetime_all_iter_add.* 
+                from B_exetime_all_iter_init left join B_exetime_all_iter_add on 
+                          B_exetime_all_iter_init.data=B_exetime_all_iter_add.data and 
+                          B_exetime_all_iter_init.iter=B_exetime_all_iter_add.iter')
+B_exetime_all_iter=B_exetime_all_iter[,-c(12,13)]
 # unique(B_perf_all_iter$method)
+colnames(B_exetime_all_iter)
 B_exetime_ORE_summary_perdata = sqldf('select Data,
                           avg(extract_rules) as mean_extract_rules, 
-                          stdev(extract_rules) as std_extract_rules,
                           stdev(extract_rules)/sqrt(count(extract_rules)) as SE_extract_rules,
+                          
                           avg(preselect_rules) as mean_preselect_rules, 
-                          stdev(preselect_rules) as std_preselect_rules,
-                          stdev(preselect_rules)/sqrt(count(preselect_rules)) as SE_preselect_rules,
-                          avg(preselect_rules) as mean_preselect_rules, 
-                          stdev(preselect_rules) as std_preselect_rules,
                           stdev(preselect_rules)/sqrt(count(preselect_rules)) as SE_preselect_rules,
                           avg(prepare_opt_input) as mean_prepare_opt_input, 
-                          stdev(prepare_opt_input) as std_prepare_opt_input, 
                           stdev(prepare_opt_input)/sqrt(count(prepare_opt_input)) as SE_prepare_opt_input,
+                          avg(build_opt) as mean_build_opt, 
+                          stdev(build_opt)/sqrt(count(build_opt)) as SE_build_opt,
                           avg(run_opt) as mean_run_opt, 
-                          stdev(run_opt) as std_run_opt, 
-                          stdev(run_opt)/sqrt(count(run_opt)) as SE_run_opt,
-                          avg(RF) as mean_RF, 
-                          stdev(RF) as std_RF, 
-                          stdev(RF)/sqrt(count(RF)) as SE_RF,
-                          avg(RPART) as mean_RPART, 
-                          stdev(RPART) as std_RPART,
-                          stdev(RPART)/sqrt(count(RPART)) as SE_RPART,
-                          avg(STEL) as mean_STEL, 
-                          stdev(STEL) as std_STEL, 
-                          stdev(STEL)/sqrt(count(STEL)) as SE_STEL
-                          from B_exetime_all_iter group by Data')
+                          stdev(run_opt)/sqrt(count(run_opt)) as SE_run_opt
+                          from B_exetime_all_iter group by data')
 
-B_exetime_ORE_summary_perdata = sqldf('select Data,
-                          avg(extract_rules) as mean_extract_rules, 
-                          
-                          avg(preselect_rules) as mean_preselect_rules, 
-                         
-                          avg(preselect_rules) as mean_preselect_rules, 
-                          
-                          avg(prepare_opt_input) as mean_prepare_opt_input, 
-                          
-                          avg(run_opt) as mean_run_opt, 
-                         
-                          avg(RF) as mean_RF, 
-                          
-                          avg(RPART) as mean_RPART, 
-                         
-                          avg(STEL) as mean_STEL 
-                          
-                          from B_exetime_all_iter group by Data')
-B_exetime_ORE_summary_perdata = sqldf('select Data,
-                          avg(extract_rules) as mean_extract_rules, 
-                          
-                          stdev(extract_rules)/sqrt(count(extract_rules)) as SE_extract_rules,
-                          avg(preselect_rules) as mean_preselect_rules, 
-                          
-                          stdev(preselect_rules)/sqrt(count(preselect_rules)) as SE_preselect_rules,
-                          avg(preselect_rules) as mean_preselect_rules, 
-                          
-                          stdev(preselect_rules)/sqrt(count(preselect_rules)) as SE_preselect_rules,
-                          avg(prepare_opt_input) as mean_prepare_opt_input, 
-                          
-                          stdev(prepare_opt_input)/sqrt(count(prepare_opt_input)) as SE_prepare_opt_input,
-                          avg(run_opt) as mean_run_opt, 
-                          
-                          stdev(run_opt)/sqrt(count(run_opt)) as SE_run_opt,
-                          median(run_opt) as median_run_opt,
-                          avg(RF) as mean_RF, 
-                          
-                          stdev(RF)/sqrt(count(RF)) as SE_RF,
-                          avg(RPART) as mean_RPART, 
-                          
-                          stdev(RPART)/sqrt(count(RPART)) as SE_RPART,
-                          avg(STEL) as mean_STEL, 
-                          
-                          stdev(STEL)/sqrt(count(STEL)) as SE_STEL,
-                          median(STEL) as median_STEL
-                          from B_exetime_all_iter group by Data')
+B_exetime_ORE_summary_perdata[,c(2:11)]= format(round(B_exetime_ORE_summary_perdata[,c(2:11)],2),nsmall=2)
 
-B_exetime_ORE_path= ".\\benchmark_results\\rules_results\\B_exetime_ORE_perdata.csv"
-write.csv(B_exetime_ORE_summary_perdata,B_exetime_ORE_path, row.names = FALSE)
-B_exetime_ORE_path= ".\\benchmark_results\\rules_results\\B_exetime_ORE_perdata.csv"
-write.csv(B_exetime_ORE_summary_perdata,B_exetime_ORE_path, row.names = FALSE)
+B_exetime_all_iter_path= ".\\benchmark_results\\rules_results\\B_exetime_all_iter.csv"
+write.csv(B_exetime_all_iter,B_exetime_all_iter_path, row.names = FALSE)
+B_exetime_ORE_summary_perdata_path= ".\\benchmark_results\\rules_results\\B_exetime_ORE_summary_perdata.csv"
+write.csv(B_exetime_ORE_summary_perdata,B_exetime_ORE_summary_perdata_path, row.names = FALSE)
