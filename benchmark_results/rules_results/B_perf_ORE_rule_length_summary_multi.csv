@@ -1,8 +1,6 @@
 "pred_set","pred_sub_set","method","mean_rules_nbr","min_rules_nbr","max_rules_nbr","std_rules_nbr","SE_rules_nbr","mean_class_rules_nbr","min_class_rules_nbr","max_class_rules_nbr","std_class_rules_nbr","SE_class_rules_nbr","mean_coverage","min_coverage","max_coverage","std_coverage","SE_coverage"
-"test","covered","CBA",28.9,0,125.6,32.4,7.9,5.9,0,24.6,5.9,1.4,0.8,0,1,0.2,0.1
 "test","covered","Forest-ORE",20.8,3,109.5,29,7,3.3,1.3,10,2.5,0.6,0.9,0.8,1,0.1,0
 "test","covered","Forest-ORE+STEL",11.7,2.8,40,9.1,2.2,2.3,1.1,4.7,1.1,0.3,0.9,0.5,1,0.1,0
-"test","covered","GRRFR",13.9,4.7,40.7,9.4,2.3,3,0.9,6.8,1.4,0.3,0.9,0.6,1,0.1,0
 "test","covered","Pre-Forest-ORE",560.8,37.9,1461.5,384,93.1,115.7,19,320.1,78.3,19,1,0.8,1,0.1,0
 "test","covered","RF",4865.1,541.9,17309.4,4771.4,1157.2,931.9,241.3,3219.9,772.2,187.3,1,1,1,0,0
 "test","covered","RIPPER",15.9,2.8,71.4,19.6,4.8,2.8,1,6.6,1.9,0.5,0.5,0,0.9,0.3,0.1

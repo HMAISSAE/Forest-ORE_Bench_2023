@@ -12,7 +12,7 @@ Ensemble to interpret Random Forest models”. The implementation and the comput
 3.  A repository named “data”: contains the data used in the experiments  
 4.  A repository named “data_summary”: contains a summary for each data used in the experiments  
 5.  A repository named “R_code”: includes an R code file for each data set experimentation  
-6.  Repositories named “Rules_results”, “Rules_results_add”, “Rules_results_abl”: contain all the output files resulting from running the files contained in the “R_code”, “R_code_other_classif” repositories   
+6.  Repositories named “Rules_results”, “Rules_results_add”, and “Rules_results_abl”: contain all the output files resulting from running the files contained in the “R_code” and “R_code_other_classif” repositories   
 7.  A repository named “benchmark_template”: includes the code files used for generating the experimental results (tables and plots) reported in the paper.    
 8.  A repository named “benchmark_results”: contains all the output files resulting from running the files contained in the “benchmark_template” repository   
 

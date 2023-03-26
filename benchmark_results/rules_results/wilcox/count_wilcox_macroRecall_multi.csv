@@ -1,0 +1,8 @@
+"Method","Wins_count","Ties_count","Loss_count"
+"RF",6,0,0
+"Pre-Forest-ORE",5,0,1
+"Forest-ORE",2,2,2
+"Forest-ORE+STEL",1,2,3
+"RPART",1,3,2
+"STEL",0,0,6
+"RIPPER",1,3,2

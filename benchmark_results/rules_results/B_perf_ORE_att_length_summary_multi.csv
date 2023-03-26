@@ -1,11 +1,8 @@
 "method","mean_att_nbr","mean_min_att_nbr","mean_max_att_nbr","mean_median_att_nbr"
-"CBA",2.5,1.2,3.4,2.7
 "Forest-ORE",3.5,1.5,4.9,3.6
 "Forest-ORE+STEL",3.4,1.6,4.8,3.6
-"GRRFR",2.4,1.1,4,2.4
 "Pre-Forest-ORE",4.1,1.1,5.4,4.3
 "RF",5.2,1.1,9.5,5.3
 "RIPPER",2.2,1.2,3.5,2.1
 "RPART",3.8,2.3,4.7,3.9
 "STEL",2.4,1.3,3.7,2.4
-"STELVote",2.4,1.3,3.7,2.4
